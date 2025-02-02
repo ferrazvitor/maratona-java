@@ -9,6 +9,24 @@ public class Aula04Operadores {
         System.out.println(numero02-numero01);
         System.out.println(numero02+numero01+" Valor "+numero02+numero01);
         System.out.println(resultado);
+
+        // % Operador para descobrir resto da divisão
+        int resto = 20 % 2;
+        System.out.println(resto);
+
+        // < > <= >= == != Valores logicos (Sempre retornam valores boleanos
+        boolean isDezMAiorQueVinte = 10 > 20;
+        boolean isDezMenorQueVinte = 10 < 20;
+        boolean isDezIgualVinte = 10 == 20;
+        boolean isDezIgualDez = 10 == 10;
+        boolean isDezDiferenteDez = 10 != 10;
+
+        System.out.println("isDezMaiorQueVinte " +isDezMAiorQueVinte);
+        System.out.println("isDezMenorQueVinte " +isDezMenorQueVinte);
+        System.out.println("isDezIgualVinte " +isDezIgualVinte);
+        System.out.println("isDezIgualDez " +isDezIgualDez);
+        System.out.println("isDezDiferenteDez " +isDezDiferenteDez);
+
     }
 }
 
