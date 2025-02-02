@@ -14,7 +14,7 @@ public class Aula04Operadores {
         int resto = 20 % 2;
         System.out.println(resto);
 
-        // < > <= >= == != Valores logicos (Sempre retornam valores boleanos
+        // < > <= >= == != Valores logicos (Sempre retornam valores boleanos)
         boolean isDezMAiorQueVinte = 10 > 20;
         boolean isDezMenorQueVinte = 10 < 20;
         boolean isDezIgualVinte = 10 == 20;
